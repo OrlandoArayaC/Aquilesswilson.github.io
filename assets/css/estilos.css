@@ -15,6 +15,14 @@ header {
   width: 100%;
 }
 
+.datos{
+  padding-top: 50px;
+}
+
+.titulo{
+  font-size: xx-large;
+}
+
 h1 {
   color: #060874;
   margin-bottom: 0px;
@@ -35,6 +43,7 @@ h1 {
 /* Formato estandar para hacer imagen responsiva */
 img {
   max-width: 100%;
+  size-adjust: backcover;
   height: auto;
   display: block;
   width: 278pt;
@@ -145,7 +154,6 @@ p {
 }
 
 footer {
-  background-color: white;
   height: 10vh;
   display: flex;
   justify-content: center;
@@ -156,9 +164,7 @@ footer {
 
 .footer a {
   font-size: 16pt;
-  color: white;
   text-decoration: none;
-  background-color: white;
 }
 
 
@@ -192,7 +198,13 @@ body {
   #Contacto form label {
     font-weight: 700;
     color: #060874;
+  
   }
+  .btn {
+    width: 200px;
+    height: 60px;
+}
+
   
   @media (max-width: 768px) {
     #Contacto form label {
